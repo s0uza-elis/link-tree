@@ -11,12 +11,12 @@
 </p>
 
 <p>
-<s>Tecnologias</s>
+<b>Tecnologias</b>
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
 
-<s>Projeto</s>
+<b>Projeto</b>
 O Link Tree é um agregador de links para usar como cartão de visitas online, principalmente em redes sociais.
 </p>
