@@ -26,6 +26,7 @@
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
+/*Body*/
 body {
   /* background: color image repeat position / size */
   background: var(--bg-url) no-repeat top center / cover;
@@ -45,7 +46,7 @@ body * {
   padding: 0 24px;
 }
 
-/*profile*/
+/*Profile*/
 #profile {
   text-align: center;
   padding: 24px;
@@ -60,7 +61,7 @@ body * {
   margin-top: 8px;
 }
 
-/*switch*/
+/*Switch*/
 #switch {
   position: relative;
   width: 64px;
@@ -78,12 +79,11 @@ body * {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+  animation: slide-back 0.2s;
 }
 
-.light #switch button {
-  right: 0;
-  left: initial;
-}
+#switch button:hover {outline: 8px solid var(--highlight-color);}
+.light #switch button {animation: slide-in 0.2s forwards;}
 
 #switch span {
   display: block;
@@ -96,7 +96,7 @@ body * {
   border-radius: 9999px;
 }
 
-/*list*/
+/*List*/
 ul {
   list-style: none;
   display: flex;
@@ -125,6 +125,7 @@ ul li a:hover {
   border: 1px solid var(--text-color);
 }
 
+/*Social Links*/
 #social-links {
   display: flex;
   justify-content: center;
@@ -145,6 +146,7 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
+/*Footer*/
 footer {
   padding: 50px 0;
   text-align: center;
@@ -170,4 +172,15 @@ footer a:hover {
   .light{
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
+}
+
+/*Animation*/
+@keyframes slide-in {
+  from{left: 0}
+  to{left: 50%}
+}
+
+@keyframes slide-back {
+  from{left: 50%}
+  to{left: 0}
 }
