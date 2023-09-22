@@ -10,7 +10,6 @@
   <img alt= "projeto de Link Tree" src=".git/preview.jpg" width="100%">
 </p>
 
-<p>
 <b>Tecnologias</b>
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
@@ -19,4 +18,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <b>Projeto</b>
 O Link Tree é um agregador de links para usar como cartão de visitas online, principalmente em redes sociais.
-</p>
