@@ -1,4 +1,4 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> Link Tree </h1>
 
 <p align="center">Projeto de link tree para redes sociais <br/></p>
 
